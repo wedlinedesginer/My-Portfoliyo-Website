@@ -2,3 +2,49 @@ body {
   background-color: #7e57c2;
   text-transform: capitalize;
 }
+
+.navb{
+  font-size: 1erm;
+  background-color: #7e57c2;
+}
+
+.row{
+  background-color: rgb(255, 255, 255);
+  color: rgb(60, 54, 128);
+}
+
+.card{
+  margin: auto;
+}
+
+.content {
+  padding: 10% 10%;
+  margin: auto;
+  font-size: 1.1rem;
+}
+.about-me{
+  padding: 10% 10%;
+  margin: auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.skillel{
+  margin: 2%;
+}
+p{
+}
+.contact{
+  margin: auto;
+}
+
+
+dialog{
+  opacity: 0;
+  scale: 0;
+  display: block;
+  transition: all 0.5s;
+}
+dialog[open]{
+  opacity: 1;
+  scale: 1;
+}
