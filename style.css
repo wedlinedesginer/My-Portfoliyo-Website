@@ -47,4 +47,7 @@ dialog{
 dialog[open]{
   opacity: 1;
   scale: 1;
+  background-color: #cbb5ef;
+  width: 500px;
+  border-radius: 10px;
 }
