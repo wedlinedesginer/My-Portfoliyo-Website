@@ -1,16 +1,10 @@
-/* body {
-  background-color: #7e57c2;
+body {
   text-transform: capitalize;
 }
 
 .navb{
   font-size: 1erm;
   background-color: #7e57c2;
-}
-
-.row{
-  background-color: rgb(255, 255, 255);
-  color: rgb(60, 54, 128);
 }
 
 .card{
@@ -50,4 +44,4 @@ dialog[open]{
   background-color: #cbb5ef;
   width: 500px;
   border-radius: 10px;
-} */
+}
