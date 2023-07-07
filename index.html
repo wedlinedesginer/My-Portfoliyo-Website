@@ -10,7 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="//style.css" />
     <title>Aneesh Augustine</title>
   </head>
   <body>
@@ -31,8 +31,8 @@
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#home"
-              >Home <span class="sr-only">(current)</span></a
-            >
+              >Home <span class="sr-only" (current)></span
+            ></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">about</a>
@@ -48,16 +48,18 @@
     </nav>
 
     <header
+      class="m-auto"
       style="
         background-color: rgb(43, 44, 67);
         color: aliceblue;
         padding-top: 100px;
         padding-bottom: 50px;
       "
+      id="home"
     >
-      <div class="container-md" id="home">
+      <div class="container-md">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 p-5">
             <div>
               <p>Hi, i'm</p>
               <p style="font-size: 50px">aneesh augustine</p>
@@ -74,19 +76,22 @@
               </button>
             </div>
           </div>
-          <div class="col-6">
-            <img src="img/img.jpeg" alt="profile image" height="380px" />
+          <div class="col-6 p-5">
+            <img
+              src="img/img.jpeg"
+              alt="profile image"
+              height="380px"
+              style="border-radius: 50%"
+            />
           </div>
         </div>
       </div>
     </header>
-    <section style="padding: 10px 5%">
-      <div class="container-md">
-        <div class="row" id="about">
-          <h1>about me</h1>
-        </div>
 
-        <div class="row about-me">
+    <div class="container-md">
+      <section class="pt-5" id="about">
+        <h1>about me</h1>
+        <div class="row p-5">
           <div class=".col-md-6">
             <p>
               As a skilled web developer with expertise in React JS, I have a
@@ -99,70 +104,88 @@
             </p>
           </div>
         </div>
-        <div class="row" style="text-align: left" id="skills">
-          <h1>skills</h1>
-        </div>
+      </section>
 
+      <section class="m-auto pt-5" style="text-align: left" id="skills">
+        <h1>skills</h1>
+        <div class="row p-5"></div>
         <div class="row content" style="text-align: center">
-          <div class="col skillel">
+          <div class="col-md-2 col-sm-4 col-4">
             <img src="/img/html-5.png" alt="" width="70" />
             <p>HTML</p>
           </div>
-          <div class="col skillel">
+          <div class="col-md-2 col-sm-4 col-4">
             <img src="/img/css.png" alt="" width="70" />
             <p>CSS</p>
           </div>
-          <div class="col skillel">
+          <div class="col-md-2 col-sm-4 col-4">
             <img src="/img/javascript.png" alt="" width="70" />
             <p>javaScript</p>
           </div>
-          <div class="col skillel">
+          <div class="col-md-2 col-sm-4 col-4">
             <img src="/img/atom.png" alt="" width="70" />
             <p>React js</p>
           </div>
-          <div class="col skillel">
+          <div class="col-md-2 col-sm-4 col-4">
             <img src="/img/atom.png" alt="" width="70" />
             <p>node js</p>
           </div>
-          <div class="col skillel">
+          <div class="col-md-2 col-sm-4 col-4">
             <img src="/img/mongodb.png" alt="" width="70" />
             <p>mongodb</p>
           </div>
-          <div class="col skillel">
+          <div class="col-md-2 col-sm-4 col-4">
             <img src="/img/bootstrap.png" alt="" width="70" />
             <p>bootstrap</p>
           </div>
-          <div class="col skillel">
+          <div class="col-md-2 col-sm-4 col-4">
             <img src="/img/git.png" alt="" width="70" />
             <p>git</p>
           </div>
-          <div class="col skillel">
+          <div class="col-md-2 col-sm-4 col-4">
             <img src="/img/photoshop.png" alt="" width="70" />
             <p>photoshop</p>
           </div>
         </div>
-        <div class="row" id="contact">
-          <form class="col-6 contact">
-            <div class="col">
+      </section>
+
+      <section class="pt-5" id="about">
+        <h1>projects</h1>
+        <div class="row p-5">
+          <div class=".col-md-6">
+
+          </div>
+        </div>
+      </section>
+
+      <section class="pt-5" id="contact">
+        <h1>contact me</h1>
+        <div class="row justify-content-center p-5">
+          <form class="col-6">
+            <div class="col p-1">
               <input type="text" class="form-control" placeholder="Your Name" />
             </div>
-            <div class="col">
+            <div class="col p-1">
               <input
                 type="email"
                 class="form-control"
                 placeholder="Your Email"
               />
             </div>
-            <div class="col">
-              <input type="" class="form-control" placeholder="Your message" />
+            <div class="col p-1">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your message"
+              />
             </div>
-            <div class="col">
-              <input type="submit" class="btn-primary" />
+            <div class="col p-1">
+              <input type="submit" class="btn btn-primary" />
             </div>
           </form>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <footer></footer>
 

@@ -25,8 +25,6 @@ body {
 .skillel{
   margin: 2%;
 }
-p{
-}
 .contact{
   margin: auto;
 }
@@ -44,4 +42,4 @@ dialog[open]{
   background-color: #cbb5ef;
   width: 500px;
   border-radius: 10px;
-}
+} 
